@@ -1,0 +1,305 @@
+body {
+margin : 0;
+padding : 0;
+text-align : justify;
+color : #666;
+background : #637c81 url(img/bgd.png) repeat;
+font : 75% "Trebuchet MS", verdana, arial, sans-serif;
+}
+
+#container {
+width : 730px;
+border : 10px solid #fff;
+margin-left : auto;
+margin-right : auto;
+margin-top : 10px;
+padding : 10px;
+line-height : 1.5em;
+color : #666;
+background : #ffffff;
+}
+
+#buttons {
+margin-left : 70px;
+margin-right : auto;
+margin-top : 200px;
+}
+
+#counters {
+margin-left : 55px;
+margin-right : auto;
+margin-top : 150px;
+}
+
+
+
+
+
+
+#banner {
+float : left;
+width : 500px;
+height : 210px;
+padding : 0;
+margin : 0;
+color : #666;
+background : inherit;
+}
+
+#content {
+padding : 10px;
+margin-top : 20px;
+margin-left : 300px;
+margin-right : 10px;
+background : #fff;
+color : #666;
+}
+
+#content h1 {
+margin : 0px 0 0px 0;
+font : normal 18px/30px verdana, arial, tahoma, sans-serif;
+color : #369;
+background : inherit;
+}
+
+#sidebar {
+float : left;
+width : 280px;
+margin : 5px 5px 0 0;
+padding : 5px;
+color : #666;
+background-color : #ffffff;
+}
+
+
+div.figure {
+  float: left;
+  width: 30%;
+  margin: 0.5em;
+  padding: 0.5em;
+  color: #666;
+}
+
+div.figure p {
+  text-align: center;
+  line-height: 1em; 
+  font-style: italic;
+  font-size: small;
+  text-indent: 0em;
+}
+
+
+div.figure2 {
+  float: left;
+  width: 65%;
+  margin: 0.5em;
+  padding: 0.5em;
+color: #666;
+}
+
+div.figure2 p {
+  text-align: right;
+  line-height: 1em; 
+  font-style: italic;
+  font-size: small;
+  text-indent: 0em;
+}
+
+
+
+
+#menu {
+width : 0px;
+padding : 0px 0 0 0;
+}
+#menu ul {
+margin : 0;
+padding : 0;
+list-style-type : none;
+}
+#menu li {
+margin : 0 0 0.5em 0;
+}
+#menu a {
+display : block;
+font-size : 11px;
+color : #5d775a;
+background : #ced8df;
+width : 120px;
+padding : 0.1em 0.8em;
+text-decoration : none;
+}
+#menu a:hover {
+background-color : #a4a4a0;
+color : #fff;
+}
+#sidebar-b {
+float : right;
+width : 150px;
+margin : 0 0 0 5px;
+padding : 10px;
+border-bottom : 20px solid #a4a4a0;
+background-color : #000000;
+color : #6e6a5a;
+}
+
+#footer {
+clear : both;
+padding : 3px;
+margin-top : 3px;
+font-size : 0.8em;
+text-align : center;
+color : #000000;
+background : #3399FF;
+}
+#footer a:link, #footer a:visited {
+background : inherit;
+color : #ffffff;
+text-decoration : none;
+}
+#footer a:hover {
+border-bottom : 1px dashed #f2f2f5;
+background : inherit;
+color : #ffffff;
+}
+
+.title {
+width : 100%;
+font : bold 30px verdana, arial, tahoma, sans-serif;
+letter-spacing : 3px;
+text-shadow: 3px 3px 1px rgba(150, 150, 150, 1);
+color : #000000;
+}
+
+.subtitle {
+width : 50%;
+font :  14px verdana, arial, tahoma, sans-serif;
+letter-spacing : 1px;
+color : #000000;
+}
+
+
+h2 {
+padding-left : 5px;
+font : bold 10px/12px verdana, arial, tahoma, sans-serif;
+color : #5d775a;
+background : inherit;
+}
+h3 {
+margin-top : 160px;
+font : bold 200% "Trebuchet MS", verdana, arial, tahoma, sans-serif;
+letter-spacing : 5px;
+color : #6972a9;
+background : transparent
+}
+
+ 
+
+
+
+p.center { 
+	text-align: center;
+	color: #3399FF;
+} 
+
+p.right { 
+	text-align: right;
+	color: #3399FF;
+} 
+
+p.left { 
+	text-align: left;
+	padding : 5px 5px 5px 15px;
+	color: #666;
+	background : #d4d7fe
+} 
+
+
+a {
+color : #ff0000;
+font-weight : bold;
+text-decoration : none;
+background : inherit;
+}
+a:hover {
+text-decoration : underline;
+color : #008000;
+background : inherit;
+}
+div.scroll {
+overflow : auto;
+height : 7em;
+width : 120px;
+padding : 0.5em;
+color : #333;
+background : #ced8df;
+border : 0 solid #999;
+margin : 0 0 15px 0;
+}
+.news {
+font-size : 10px;
+background : inherit;
+color : #333;
+}
+.imgleft {
+float : right;
+}
+
+
+.upsy {
+	position: relative;
+	bottom: 0.5em;
+	font-size: 0.8em;
+}
+
+.downsy {
+	position: relative;
+	bottom: -0.1em;
+}
+
+
+
+
+
+p.footnotes {
+padding : 5px;
+font-size : 0.8em;
+font-style : italic;
+text-align : left;
+line-height : 1em;
+color : #666;
+background : #f0f0f0;
+}
+
+
+
+ol dl li {
+list-style-type:decimal;
+list-style-position: outside;
+font-size:small;
+position: relative;
+top: 0px;
+left: 0px;
+line-height:normal;
+color:#666;
+_color:#FFF;; /* show to IE */
+}
+ol dl li dt {
+_margin-top: -0px;
+}
+ol dl li dd {
+width: 320px;
+}
+ol dl li dt, ol dl li dd {
+_list-style-type:decimal;
+_list-style-position: outside;
+color:#666;
+font-size:0px;
+line-height:normal;
+font-size:small;
+position: relative;
+top: -0px;
+left: -40px;
+}
+
+
